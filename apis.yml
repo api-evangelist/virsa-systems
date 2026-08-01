@@ -1,8 +1,26 @@
 aid: virsa-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/virsa-systems.png
 name: Virsa Systems
-description: Virsa Systems is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Virsa Systems was a governance, risk, and compliance (GRC) software company founded
+  in 1996 that specialized in helping enterprises meet regulatory requirements such as Sarbanes-Oxley
+  by embedding automated control design, testing, and enforcement directly into their business
+  processes, notably around SAP access controls and segregation-of-duties. Lightspeed Venture
+  Partners invested in the company at an early stage in 2004, and Virsa Systems was acquired by SAP
+  in 2006, becoming the foundation of what is now SAP GRC / SAP Access Control. It no longer operates
+  as an independent company and maintains no separate website, developer portal, or public API. This
+  profile is retained in the API Evangelist network as a historical/portfolio record; there is no
+  active API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/virsa-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,31 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: SAP
+x-acquired-year: 2006
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Governance
+- Risk
+- Compliance
+- GRC
+- Sarbanes-Oxley
+- Access Control
+- Enterprise Software
+- SAP
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
